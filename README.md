@@ -1,2 +1,2 @@
 # panda-csv-utf16
-Simple python code to convert pkl to csv, ec
+Simple python code to convert pkl to csv
