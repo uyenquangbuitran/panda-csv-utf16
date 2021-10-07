@@ -10,4 +10,4 @@ lineNum = 10000
 index = 0
 for x in range(0, len(data[data.keys()[0]]), lineNum):
 	index+=1
-    data[x:x+lineNum].to_csv(f'./' + name + '{index}.csv', encoding='utf-16')
+    data[x:x+lineNum].to_csv(f'./{name}-{index}.csv', encoding='utf-16')
